@@ -1,6 +1,7 @@
 # AGENTS.md: portal_aplikasi
 
 Panduan untuk AI agent. Baca file ini, lalu README di tiap folder.
+Penjelasan lengkap fungsi aplikasi: `docs/TENTANG_APLIKASI.md`.
 
 ## Ringkasan
 
@@ -51,4 +52,4 @@ Akun demo: `admin@example.com` / `Admin#12345` (API dan admin). Admin juga: `edi
 
 ## Repo terkait
 
-`portal_dashboard_api` (portal dashboard), dan peta semua repo di `docs/ONBOARDING_PROMPT.md` pada repo `Yudistioizza`.
+`portal_dashboard_api` (portal dashboard). Penjelasan lengkap: `docs/TENTANG_APLIKASI.md`; prompt onboarding: `docs/ONBOARDING_PROMPT.md`.
