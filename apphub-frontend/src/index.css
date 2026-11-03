@@ -1,0 +1,33 @@
+/* Poppins is loaded from Google Fonts in public/index.html. */
+body {
+  margin: 0;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 { font-weight: 700; }
+h3, h4, h5 { font-weight: 500; }
+
+.gotham-regular, .ui-text { font-weight: 400; }
+.gotham-bold, .ui-text-bold { font-weight: 700; }
+
+p { font-style: normal; }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.brand-title .brand-a { color: #0b1f33; }
+.brand-title .brand-b { color: #0d9488; font-weight: 800; }
+
+.demo-banner {
+  max-width: 720px;
+  margin: 0.75rem auto 0;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid #99f6e4;
+  background: #f0fdfa;
+  color: #115e59;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}

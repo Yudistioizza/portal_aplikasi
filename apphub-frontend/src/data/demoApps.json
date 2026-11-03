@@ -1,0 +1,235 @@
+{
+  "websiteTypes": [
+    {
+      "id": 1,
+      "name": "Internal"
+    },
+    {
+      "id": 2,
+      "name": "Eksternal"
+    },
+    {
+      "id": 3,
+      "name": "Mobile"
+    }
+  ],
+  "businessCategories": [
+    {
+      "id": 1,
+      "name": "SDM"
+    },
+    {
+      "id": 2,
+      "name": "Keuangan"
+    },
+    {
+      "id": 3,
+      "name": "Operasional"
+    },
+    {
+      "id": 4,
+      "name": "Penjualan & Pemasaran"
+    },
+    {
+      "id": 5,
+      "name": "TI & Keamanan"
+    },
+    {
+      "id": 6,
+      "name": "Hukum & Kepatuhan"
+    }
+  ],
+  "apps": [
+    {
+      "id": 1,
+      "app_name": "HR Connect",
+      "app_desc": "Layanan mandiri karyawan: pengajuan cuti, slip gaji, absensi, dan direktori pegawai.",
+      "app_logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjIiIGZpbGw9IiMyNTYzZWIiLz48dGV4dCB4PSI0OCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmIj5IUjwvdGV4dD48L3N2Zz4=",
+      "app_link": "https://apps.example.com/hr-connect",
+      "app_order": 1,
+      "is_active": true,
+      "website_type_id": 1,
+      "category_ids": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "app_name": "e-Sign Hub",
+      "app_desc": "Tanda tangan dan alur dokumen digital dengan jejak audit lengkap.",
+      "app_logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjIiIGZpbGw9IiM3YzNhZWQiLz48dGV4dCB4PSI0OCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmIj5lUzwvdGV4dD48L3N2Zz4=",
+      "app_link": "https://apps.example.com/e-sign-hub",
+      "app_order": 2,
+      "is_active": true,
+      "website_type_id": 1,
+      "category_ids": [
+        3,
+        6
+      ]
+    },
+    {
+      "id": 3,
+      "app_name": "Procure Pro",
+      "app_desc": "Permintaan pembelian, penawaran vendor, dan persetujuan dalam satu alur kerja.",
+      "app_logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjIiIGZpbGw9IiMwZDk0ODgiLz48dGV4dCB4PSI0OCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmIj5QUDwvdGV4dD48L3N2Zz4=",
+      "app_link": "https://apps.example.com/procure-pro",
+      "app_order": 3,
+      "is_active": true,
+      "website_type_id": 1,
+      "category_ids": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 4,
+      "app_name": "FleetTrack",
+      "app_desc": "Posisi kendaraan langsung, riwayat perjalanan, dan pengingat perawatan.",
+      "app_logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjIiIGZpbGw9IiNlYTU4MGMiLz48dGV4dCB4PSI0OCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmIj5GVDwvdGV4dD48L3N2Zz4=",
+      "app_link": "https://apps.example.com/fleettrack",
+      "app_order": 4,
+      "is_active": true,
+      "website_type_id": 3,
+      "category_ids": [
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "app_name": "Insight Dashboards",
+      "app_desc": "Dashboard business intelligence untuk pelaporan manajemen.",
+      "app_logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjIiIGZpbGw9IiNkYjI3NzciLz48dGV4dCB4PSI0OCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmIj5CSTwvdGV4dD48L3N2Zz4=",
+      "app_link": "https://apps.example.com/insight-dashboards",
+      "app_order": 5,
+      "is_active": true,
+      "website_type_id": 1,
+      "category_ids": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": 6,
+      "app_name": "Learning Academy",
+      "app_desc": "Kursus, sertifikasi, dan jalur belajar untuk setiap peran.",
+      "app_logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjIiIGZpbGw9IiMxNmEzNGEiLz48dGV4dCB4PSI0OCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmIj5MQTwvdGV4dD48L3N2Zz4=",
+      "app_link": "https://apps.example.com/learning-academy",
+      "app_order": 6,
+      "is_active": true,
+      "website_type_id": 1,
+      "category_ids": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "app_name": "Ticket Desk",
+      "app_desc": "Ajukan dan pantau permintaan dukungan TI dengan target waktu respons.",
+      "app_logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjIiIGZpbGw9IiMwODkxYjIiLz48dGV4dCB4PSI0OCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmIj5URDwvdGV4dD48L3N2Zz4=",
+      "app_link": "https://apps.example.com/ticket-desk",
+      "app_order": 7,
+      "is_active": true,
+      "website_type_id": 1,
+      "category_ids": [
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "app_name": "Visitor Pass",
+      "app_desc": "Pendaftaran tamu di muka dan cetak tanda pengenal tamu di resepsionis.",
+      "app_logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjIiIGZpbGw9IiNjYThhMDQiLz48dGV4dCB4PSI0OCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmIj5WUDwvdGV4dD48L3N2Zz4=",
+      "app_link": "https://apps.example.com/visitor-pass",
+      "app_order": 8,
+      "is_active": true,
+      "website_type_id": 2,
+      "category_ids": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": 9,
+      "app_name": "Contract Vault",
+      "app_desc": "Arsip kontrak yang bisa dicari, lengkap dengan pengingat perpanjangan.",
+      "app_logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjIiIGZpbGw9IiM0ZjQ2ZTUiLz48dGV4dCB4PSI0OCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmIj5DVjwvdGV4dD48L3N2Zz4=",
+      "app_link": "https://apps.example.com/contract-vault",
+      "app_order": 9,
+      "is_active": true,
+      "website_type_id": 1,
+      "category_ids": [
+        2,
+        6
+      ]
+    },
+    {
+      "id": 10,
+      "app_name": "Expense Go",
+      "app_desc": "Foto struk, ajukan klaim, dapatkan penggantian.",
+      "app_logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjIiIGZpbGw9IiNlMTFkNDgiLz48dGV4dCB4PSI0OCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmIj5FRzwvdGV4dD48L3N2Zz4=",
+      "app_link": "https://apps.example.com/expense-go",
+      "app_order": 10,
+      "is_active": true,
+      "website_type_id": 3,
+      "category_ids": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 11,
+      "app_name": "Asset Tracker",
+      "app_desc": "Inventaris peralatan dengan label QR dan riwayat penanggung jawab.",
+      "app_logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjIiIGZpbGw9IiM2NWEzMGQiLz48dGV4dCB4PSI0OCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmIj5BVDwvdGV4dD48L3N2Zz4=",
+      "app_link": "https://apps.example.com/asset-tracker",
+      "app_order": 11,
+      "is_active": true,
+      "website_type_id": 1,
+      "category_ids": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 12,
+      "app_name": "Sales Pulse",
+      "app_desc": "Pipeline, proyeksi, dan tindak lanjut pelanggan untuk tim penjualan.",
+      "app_logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjIiIGZpbGw9IiNjMDI2ZDMiLz48dGV4dCB4PSI0OCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmIj5TUDwvdGV4dD48L3N2Zz4=",
+      "app_link": "https://apps.example.com/sales-pulse",
+      "app_order": 12,
+      "is_active": true,
+      "website_type_id": 2,
+      "category_ids": [
+        4
+      ]
+    },
+    {
+      "id": 13,
+      "app_name": "Safety Report",
+      "app_desc": "Laporkan insiden dan nyaris celaka dari lapangan dalam hitungan detik.",
+      "app_logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjIiIGZpbGw9IiNkYzI2MjYiLz48dGV4dCB4PSI0OCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmIj5TUjwvdGV4dD48L3N2Zz4=",
+      "app_link": "https://apps.example.com/safety-report",
+      "app_order": 13,
+      "is_active": true,
+      "website_type_id": 3,
+      "category_ids": [
+        3,
+        6
+      ]
+    },
+    {
+      "id": 14,
+      "app_name": "Meeting Rooms",
+      "app_desc": "Cari dan pesan ruang rapat; undangan langsung masuk ke kalender Anda.",
+      "app_logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjIiIGZpbGw9IiMwZjc2NmUiLz48dGV4dCB4PSI0OCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmIj5NUjwvdGV4dD48L3N2Zz4=",
+      "app_link": "https://apps.example.com/meeting-rooms",
+      "app_order": 14,
+      "is_active": true,
+      "website_type_id": 1,
+      "category_ids": [
+        3,
+        5
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" role="img" aria-label="AppHub">
+  <rect x="2" y="4" width="48" height="48" rx="12" fill="#0d9488"/>
+  <g fill="#ffffff">
+    <rect x="12" y="14" width="10" height="10" rx="3"/>
+    <rect x="30" y="14" width="10" height="10" rx="3" opacity=".7"/>
+    <rect x="12" y="32" width="10" height="10" rx="3" opacity=".7"/>
+    <rect x="30" y="32" width="10" height="10" rx="3"/>
+  </g>
+  <text x="64" y="37" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#ffffff">App<tspan fill="#5eead4">Hub</tspan></text>
+</svg>

@@ -1,0 +1,29 @@
+/* AppHub theme: overrides the SB Admin 2 blue/red palette with the AppHub navy + teal. */
+:root {
+  --apphub-navy: #0b1f33;
+  --apphub-teal: #0d9488;
+  --apphub-teal-dark: #0f766e;
+}
+
+.bg-gradient-primary {
+  background-color: var(--apphub-navy);
+  background-image: none;
+}
+
+.btn-primary {
+  background-color: var(--apphub-teal);
+  border-color: var(--apphub-teal);
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: var(--apphub-teal-dark) !important;
+  border-color: var(--apphub-teal-dark) !important;
+}
+
+.text-primary { color: var(--apphub-teal) !important; }
+.border-left-primary { border-left-color: var(--apphub-teal) !important; }
+a { color: var(--apphub-teal-dark); }
+a:hover { color: var(--apphub-teal); }
+.page-item.active .page-link { background-color: var(--apphub-teal); border-color: var(--apphub-teal); }
+.sidebar .nav-item .nav-link { color: rgba(255, 255, 255, .8); }
+.sidebar .nav-item.active .nav-link { color: #fff; }
+.sidebar-brand { background: #fff; }
